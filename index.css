@@ -1,0 +1,349 @@
+.navbar {
+  height: 90px;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
+  border: 1px solid;
+  margin-right: 200px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.vertical .front {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid;
+}
+.vertical .front .front1 {
+  height: 100%;
+  width: 40%;
+  border: 2px dashed;
+}
+.vertical .front .front2 {
+  width: 40%;
+  height: 70%;
+  border: 1px dashed;
+}
+.foot {
+  margin-top: 100px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.foot .foot1 {
+  width: 20%;
+}
+.foot .foot1 h4 {
+  color: cyan;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.foot .foot1 form {
+  display: flex;
+  flex-direction: column;
+}
+.foot .foot1 form #email {
+  height: 40px;
+  background-color: cyan;
+}
+.foot .foot2 {
+  margin-top: 50px;
+  width: 40%;
+}
+.foot .foot2 h1 {
+  color: white;
+}
+.foot .foot2 p {
+  color: white;
+}
+.foot .foot3 {
+  margin-top: 30px;
+  width: 30%;
+}
+.foot .foot3 h1 {
+  color: white;
+}
+.foot .foot3 #two {
+  margin-top: 30px;
+}
+.foot .foot3 #two #one {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.page .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 59px;
+  margin-bottom: 0;
+}
+.six {
+  height: 622px;
+  margin-top: 76px;
+  margin-right: 152px;
+  margin-left: 55px;
+}
+.fake {
+  display: none;
+}
+.dish {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+}
+.dish #first {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #d8e9ea;
+}
+.dish #first #cv {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 14px;
+  text-decoration: none;
+}
+.seven {
+  height: 750px;
+  background-image: url("https://tr3.cbsistatic.com/hub/i/2010/12/15/5a038f3e-c3ac-11e2-bc00-02911874f8c8/d4eaea1…/491698.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seven #first {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+.seven #first #cv {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 14px;
+  text-decoration: none;
+}
+.seven #name {
+  height: 50px;
+  margin-top: 120px;
+}
+.seven #name #rana {
+  color: white;
+  font-family: serif;
+  font-size: 70px;
+  margin-left: 390px;
+  font-weight: bolder;
+}
+.seven #hey {
+  height: 70px;
+  margin-top: 60px;
+}
+.seven #hey #first {
+  color: #fff db;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 409px;
+  padding-right: 397px;
+}
+.seven #hey #first2 {
+  color: #fff db;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+  font-size: 20px;
+  padding-left: 429px;
+  padding-right: 180px;
+}
+.seven #hey span {
+  color: #efcb92;
+  font-style: italic;
+}
+.seven #second {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 190px;
+}
+.seven #second .cc {
+  color: darkturquoise;
+}
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.about #pic {
+  height: 100%;
+  width: 30%;
+}
+.about #pic .cd {
+  margin-top: 70px;
+}
+.about #content {
+  height: 100%;
+  width: 60%;
+}
+.about #content .jumbotron {
+  height: 630px;
+  margin-top: 30px;
+}
+.skills {
+  height: 100vh;
+}
+.skills #sk {
+  display: flex;
+  margin-top: 46px;
+  height: 104px;
+  width: 100%;
+}
+.skills #sk #g {
+  width: 50%;
+}
+.skills #sk #g .fas {
+  margin-left: 500px;
+  color: darkturquoise;
+}
+.skills #sk #gg {
+  width: 50%;
+}
+.skills #sk #gg p {
+  font-size: 69px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.skills #js {
+  height: 480px;
+  margin-top: 50px;
+}
+.skills #js .ss {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-evenly;
+  height: 75px;
+}
+.skills #js .ss #w {
+  width: 60%;
+}
+.education {
+  height: 100vh;
+}
+.education #kool {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 70px;
+}
+.education #kool .vv {
+  color: lightsteelblue;
+  margin-right: 30px;
+}
+.education #kool #go {
+  font-size: 57px;
+  font-family: serif;
+  font-weight: 800;
+}
+.education .school {
+  margin-top: 40px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+.education .school .vv2 {
+  margin-right: 30px;
+  color: crimson;
+  margin-left: 20px;
+}
+.education .school .vv3 {
+  margin-right: 30px;
+  color: crimson;
+  margin-left: 20px;
+}
+.education .school #go2 {
+  font-size: 40px;
+  font-family: serif;
+  font-weight: 800;
+}
+.education .info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  height: 200px;
+}
+.education .info .inner {
+  height: 100%;
+  width: 30%;
+}
+.education .info .inner h3 {
+  font-family: serif;
+  font-weight: 600;
+}
+.education .info .outer {
+  height: 60%;
+}
+.education .info .outer .jumbotron {
+  padding-top: 11px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  width: 37rem;
+}
+.education .info .outer .jumbotron .container {
+  box-shadow: 12px -16px 20px darkturquoise;
+}
+.education .info .outer .jumbotron h1 {
+  margin-bottom: 30px;
+  color: white;
+}
+.education .info .outer .jumbotron p {
+  color: white;
+}
+.contact {
+  background-color: #3f9788;
+  height: 55vh;
+  display: flex;
+}
+.contact #last {
+  height: 100%;
+  width: 40%;
+}
+.contact #last ul {
+  list-style-type: none;
+  margin-left: 50px;
+}
+.contact #last ul li {
+  color: white;
+  margin-top: 15px;
+}
+.contact #last ul #x {
+  margin-top: 40px;
+}
+.contact #last ul #ff {
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.contact #loop {
+  height: 100%;
+  width: 60%;
+}
+.contact #loop #off {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 75px;
+}
+.contact #loop #off #on {
+  color: white;
+}
+#empty {
+  height: 280px;
+  width: 100%;
+}
